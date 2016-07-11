@@ -1,0 +1,3 @@
+In the previous exercise, we knew the file’s contents: one line with a number and then exactly three num
+bers. If there had been seven numbers in the file only the 
+first three would have been used. And if there had been only two numbers in the file, the program would have ended with an error when run.
