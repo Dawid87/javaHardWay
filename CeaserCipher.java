@@ -41,7 +41,7 @@ public class CeaserCipher {
 			cipher += shiftLetter( plaintext.charAt(i), shift );
 		}
 		System.out.println("What would you like to name the output file?");
-		fileName = keyboard.next();
+		fileName = keyboard.next() + ".txt" ;
 
 		PrintWriter out = new PrintWriter(fileName);
 			out.println( cipher );
